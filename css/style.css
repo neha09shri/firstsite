@@ -78,6 +78,7 @@
     padding: 55px;
     width: 30%;
     border-radius: 12px;
+    background: #00000052;
 
   }
   .form-group input {
@@ -101,6 +102,6 @@
     text-align: center;
   }
   .form-group{
-    color: black;
+    color: white;
     margin-top: 10px;
   }
