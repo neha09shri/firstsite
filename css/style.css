@@ -1,0 +1,106 @@
+ /*CSS Reset*/
+ body {
+    margin: 0px;
+    color: white;
+    padding: 0px;
+    background: url("../image/img.jpg");
+    background-size: cover;
+    font-family: "Roboto Mono", monospace;
+  }
+  .left {
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    display: inline-block;
+    /* border: 2px solid red; */
+  }
+  .left img {
+    text-align: center;
+    width: 50px;
+    /* filter: invert(100%); This property is used if we want to change the color from black to white or vice versa */
+    padding-left: 15px;
+  }
+  .left div {
+    text-align: center;
+    line-height: 14px;
+    font-size: 12px;
+  }
+  .mid {
+    /* To set the content in mid we have to do 3 things first display:block;width should be set and margin auto */
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    /* border: 2px solid greenyellow; */
+  }
+  .right {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 34px;
+    /* border: 2px solid rgb(231, 171, 82); */
+  }
+  .btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 13px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: "Roboto Mono", monospace;
+  }
+  .btn:hover {
+    color: red;
+    background-color: rgb(128, 185, 235);
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    font-size: 15px;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    /* text-decoration: none; This property is used to remove the underline which comes under our content of navbar i,e home about us and all */
+    padding: 10px 16px;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: rgb(221, 104, 104);
+  }
+  .container {
+    border: 2px solid white;
+    margin: 50px 50px;
+    padding: 55px;
+    width: 30%;
+    border-radius: 12px;
+
+  }
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 33%;
+    padding: 6px;
+    margin: 6px auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+  }
+  .container h1{
+    text-align: center;
+  }
+  .container .btn{
+    display: block;
+    width: 34%;
+    margin: auto;
+    text-align: center;
+  }
+  .form-group{
+    color: black;
+    margin-top: 10px;
+  }
