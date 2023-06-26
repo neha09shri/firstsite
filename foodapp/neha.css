@@ -74,7 +74,7 @@
  }
  #home::before{
     content: "";
-    background-image: url('/images/background.jpg');
+    background-image: url('images/background.jpg');
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ cursor: pointer;
 }
 #client-section::before{
     content: "";
-    background-image: url('/images/client.jpg');
+    background-image: url('images/client.jpg');
     background-position: initial;
     background-repeat: no-repeat;
     background-size: cover;
@@ -205,7 +205,7 @@ margin-top: 40px;
 }
 #contact::before{
     content: "";
-    background-image: url('/images/pexels-kampus-production-5920737.jpg');
+    background-image: url('images/pexels-kampus-production-5920737.jpg');
     background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
